@@ -1,0 +1,64 @@
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+###
+
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+###
+
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+###
+
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+<> 2019-04-27T063432.500.html
+
+###
+
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+<> 2019-04-27T063412.500.html
+
+###
+
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+<> 2019-04-27T063001.500.html
+
+###
+
+POST http://localhost:5000/create_user
+Accept: */*
+Cache-Control: no-cache
+
+{"username": "admin", "password": "pass"}
+
+<> 2019-04-27T062944.500.html
+
+###
+
