@@ -1,8 +1,11 @@
 from flask import Flask
-from app.controller.usercontroller import user_controller
-from app.common.db import mongo
-from app.common.loginmanager import login, sess
 
+from app.controller.usercontroller import user_controller
+from app.controller.admincontroller import admin_controller
+from app.controller.doctorcontroller import doctor_controller
+from app.controller.patientcontroller import patient_controller
+from app.common import db
+from app.common.loginmanager import login, sess
 
 app = Flask(__name__)
 
@@ -11,11 +14,16 @@ app.config['MONGO_URI'] = 'mongodb://localhost:27017/hospital'
 app.config['SESSION_TYPE'] = 'mongodb'
 app.config['SECRET_KEY'] = 'super secret key'
 
-mongo.init_app(app)
+
+# mongo.init_app(app)
 login.init_app(app)
 app.config.from_object(__name__)
 sess.init_app(app)
 app.register_blueprint(blueprint=user_controller, url_prefix='/user')
+app.register_blueprint(blueprint=admin_controller, url_prefix='/admin')
+app.register_blueprint(blueprint=doctor_controller, url_prefix='/doctor')
+app.register_blueprint(blueprint=patient_controller, url_prefix='/patient')
+
 
 # @app.route('/test')
 # def test():

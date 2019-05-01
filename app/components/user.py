@@ -44,6 +44,7 @@ def requires_roles(*roles):
 
     return wrapper
 
+
 def get_current_user_role():
     user_type = find_user({"_id": session.get("Username")})["Type"]
     if user_type == "0":
@@ -52,3 +53,4 @@ def get_current_user_role():
         return "Doctor"
     if user_type == "2":
         return "Patient"
+

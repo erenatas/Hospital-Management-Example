@@ -17,9 +17,10 @@ def hello_world():
 def create_user():
     username = request.form.get('username')
     password = request.form.get('password')
+    role = request.form.get('role')
     user_object = CreateUserFactory()
     try:
-        user_object.user("admin").create_user(username, password)
+        user_object.user(role).create_user(username, password)
         return "OK"
     except DuplicateKeyError:
         return "FAIL"

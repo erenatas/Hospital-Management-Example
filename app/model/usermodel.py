@@ -1,4 +1,4 @@
-from app.common.db import mongo
+from app.common.db import my_connection
 
 
 class CreateUser(object):
@@ -7,7 +7,7 @@ class CreateUser(object):
     def create_user(self, username, password):
         print(self.user, username)
         user = [{'Type': self.user, '_id': username, 'Password': password}]
-        doc = mongo.db.user.insert(user)
+        doc = my_connection.db.user.insert(user)
         print(doc)
         return self.user, username, password
 
@@ -32,4 +32,6 @@ class CreateUserFactory:
 
 
 def find_user(info):
-    return mongo.db.user.find_one(info)
+    return my_connection.db['user'].find_one(info)
+
+
