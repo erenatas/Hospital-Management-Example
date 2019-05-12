@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="105">
-                <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              <first_editor relative-caret-position="315">
+                <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -339,7 +339,7 @@
       <workItem from="1556722273432" duration="15881000" />
       <workItem from="1557582184391" duration="3798000" />
       <workItem from="1557602681717" duration="5948000" />
-      <workItem from="1557650796623" duration="5170000" />
+      <workItem from="1557650796623" duration="5641000" />
     </task>
     <task id="LOCAL-00001" summary="Changed from flask pymongo to pymongo, created a singleton pattern for &#10;db connection. Created controllers for users, implemented strategy &#10;pattern for reports, will also make strategy for appointments. WIP">
       <created>1556735200299</created>
@@ -352,7 +352,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86156000" />
+    <option name="totallyTimeSpent" value="86627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,8 +688,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <first_editor relative-caret-position="315">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           </first_editor>
           <second_editor />
         </state>
