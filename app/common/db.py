@@ -4,6 +4,11 @@ import traceback
 
 
 class Singleton(object):
+    """
+    This __new__ method is how we create the pymongo object as a singleton object. Singleton is not limited to singleton.
+    You can also impose limit on total number created instances. You can implement the singleton design pattern using
+    __new__ method. Where singleton class is a class that can only have one object. That is, instance of class.
+    """
     def __new__(cls, *args, **kwargs):
         if not hasattr(cls, '_instance'):
             orig = super(Singleton, cls)

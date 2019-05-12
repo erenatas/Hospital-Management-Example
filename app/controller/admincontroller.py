@@ -6,6 +6,12 @@ from app.components.user import requires_roles
 admin_controller = Blueprint('admin', __name__)
 
 
+'''
+This controller method is for creating a user. CreateUserFactory class is being used for creating a user. user_object
+gets the user's role and then create_user method is being called. 
+'''
+
+
 @requires_roles('Admin')
 @admin_controller.route('/create_user', methods=['POST'])
 def create_user():
@@ -18,4 +24,3 @@ def create_user():
         return "OK"
     except DuplicateKeyError:
         return "FAIL"
-
