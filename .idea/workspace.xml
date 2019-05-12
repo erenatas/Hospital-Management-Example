@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee86d08-cabe-4efc-a528-5542a493443c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/model/appointment/appointmentmodel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/appointment/appointmentstrategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/appointment/doctorappointmentmodelstrategy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/model/appointment/patientappointmentmodelstrategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/loginmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/loginmanager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/admincontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/admincontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/doctorcontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/doctorcontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/patientcontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/patientcontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controller/usercontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/controller/usercontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/appointmentmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/appointmentmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/report/doctorreportmodelstrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/report/doctorreportmodelstrategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/report/patientreportmodelstrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/report/patientreportmodelstrategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/report/reportmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/report/reportmodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/report/reportstrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/report/reportstrategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/usermodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/model/usermodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/components/user.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -46,6 +21,18 @@
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -103,15 +90,6 @@
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/model/usermodel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -217,6 +195,7 @@
         <option value="$PROJECT_DIR$/app/controller/patientcontroller.py" />
         <option value="$PROJECT_DIR$/app/controller/usercontroller.py" />
         <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -226,7 +205,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="216" />
     <option name="y" value="192" />
-    <option name="width" value="1971" />
+    <option name="width" value="2719" />
     <option name="height" value="1348" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -360,7 +339,7 @@
       <workItem from="1556722273432" duration="15881000" />
       <workItem from="1557582184391" duration="3798000" />
       <workItem from="1557602681717" duration="5948000" />
-      <workItem from="1557650796623" duration="4617000" />
+      <workItem from="1557650796623" duration="5170000" />
     </task>
     <task id="LOCAL-00001" summary="Changed from flask pymongo to pymongo, created a singleton pattern for &#10;db connection. Created controllers for users, implemented strategy &#10;pattern for reports, will also make strategy for appointments. WIP">
       <created>1556735200299</created>
@@ -373,7 +352,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85603000" />
+    <option name="totallyTimeSpent" value="86156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,16 +364,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="216" y="192" width="1971" height="1348" extended-state="0" />
+    <frame x="216" y="192" width="2719" height="1348" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35303265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25438926" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="REST Client" order="0" weight="0.3299373" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32947975" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.20461783" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.20461783" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39888534" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -404,7 +383,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.3299373" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32836992" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3280255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.3280255" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -703,6 +682,16 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

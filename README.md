@@ -5,7 +5,5 @@ The patterns that have been used are `Singleton`, `MVC`, `Factory` and `Strategy
 
 ## TODO:
 - Finalize code
-- Freeze for requirements.txt
 - Prepare Dockerfile.
-- Frontend on ReactJS.
 - Finish this markdown.
