@@ -12,8 +12,8 @@ gets the user's role and then create_user method is being called.
 '''
 
 
-@requires_roles('Admin')
 @admin_controller.route('/create_user', methods=['POST'])
+@requires_roles('Admin')
 def create_user():
     username = request.form.get('username')
     password = request.form.get('password')

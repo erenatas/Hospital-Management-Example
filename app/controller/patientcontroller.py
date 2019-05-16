@@ -18,8 +18,8 @@ This controller method gets the appointments that the Patient has.
 '''
 
 
-@requires_roles('Patient')
 @patient_controller.route('/get_appointments')
+@requires_roles('Patient')
 def get_appointment():
     user_id = session.get('user_id')
     return appointment_model.get_appointments(user_id, 'Patient')
@@ -30,8 +30,8 @@ This controller gets the report that Doctor has given to that patient.s
 '''
 
 
-@requires_roles('Patient')
 @patient_controller.route('/get_report')
+@requires_roles('Patient')
 def get_report():
     user_id = session.get('user_id')
     return report_model.get_reports(user_id, 'Patient')

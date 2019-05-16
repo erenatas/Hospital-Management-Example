@@ -27,7 +27,7 @@ class AppointmentModel(object):
         self._appointment_strategy = appointment_strategy
 
     def get_appointments(self, user_id, user_type):
-        return self._appointment_strategy.get_appointments(user_id, user_type)
+        return self._appointment_strategy.get_appointments(user_id)
 
     def set_appointment(self, user_id, patient_id, date):
         return self._appointment_strategy.set_appointment(user_id, patient_id, date)

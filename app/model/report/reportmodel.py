@@ -27,10 +27,10 @@ class ReportModel(object):
         self._report_strategy = report_strategy
 
     def get_reports(self, user_id, user_type):
-        self._report_strategy.get_reports(user_id, user_type)
+        return self._report_strategy.get_reports(user_id, user_type)
 
     def send_report(self, user_id, patient_id, report, date):
-        self._report_strategy.send_report(user_id, patient_id, report, date)
+        return self._report_strategy.send_report(user_id, patient_id, report, date)
 
 
 class DoctorReportModel(ReportModel):

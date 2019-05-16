@@ -15,10 +15,10 @@ app = Flask(__name__)
 '''
 This is where Flask is configured flask and it's session type.
 '''
-app.config['MONGO_DBNAME'] = 'hospital'
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/hospital'
+# app.config['MONGO_DBNAME'] = 'hospital'
+# app.config['MONGO_URI'] = 'mongodb://localhost:27017/hospital'
 app.config['SESSION_TYPE'] = 'mongodb'
-app.config['SECRET_KEY'] = 'super secret key'
+# app.config['SECRET_KEY'] = 'super secret key'
 
 
 # mongo.init_app(app)

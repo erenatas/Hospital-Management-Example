@@ -34,8 +34,8 @@ This controller is for logging out. Session id of the user gets deleted from the
 '''
 
 
-@requires_roles('Admin', 'Doctor', 'Patient')
 @user_controller.route('/logout')
+@requires_roles('Admin', 'Doctor', 'Patient')
 def logout():
     logout_user()
     return "OK"
@@ -46,8 +46,8 @@ This controller tells the user's username.
 '''
 
 
-@requires_roles('Admin', 'Doctor', 'Patient')
 @user_controller.route('/current_user', methods=['GET'])
+@requires_roles('Admin', 'Doctor', 'Patient')
 def current_user():
     return session.get('user_id')
 
