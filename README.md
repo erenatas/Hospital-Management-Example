@@ -13,9 +13,3 @@ docker run -d -p 27017:27017 --name mongo  mongo
 pip install -r requirements.txt
 python app.py
 ```
-
-
-## TODO:
-- Finalize code
-- Prepare Dockerfile.
-- Finish this markdown.
